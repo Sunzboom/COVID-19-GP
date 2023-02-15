@@ -1,17 +1,74 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
+	"pages": [
+		{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Covid-19",
+		"navigationBarBackgroundColor": "#1296db",
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar": {
+		"selectedColor": "#1296db",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+			    "iconPath": "static/icon_kvgf58artti/xiaoxi.png",
+				"selectedIconPath": "static/icon_yv9ynkrdvi/xiaoxi.png"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "统计",
+				"iconPath": "static/icon_kvgf58artti/xuanxiang.png",
+				"selectedIconPath": "static/icon_yv9ynkrdvi/xuanxiang.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "新闻",
+				"iconPath": "static/icon_kvgf58artti/faxian.png",
+				"selectedIconPath": "static/icon_yv9ynkrdvi/faxian.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/icon_kvgf58artti/wode.png",
+				"selectedIconPath": "static/icon_yv9ynkrdvi/wode.png"
+			}
+		]
 	}
 }
